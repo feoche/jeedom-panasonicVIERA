@@ -88,7 +88,7 @@ class panasonicVIERA extends eqLogic {
 
     /*     * ***********************Methode static*************************** */
     /**
-     * Function that compare two command object
+     * Function that compare two command jeeObject
      *
      * @param $cmd_a
      * @param $cmd_b

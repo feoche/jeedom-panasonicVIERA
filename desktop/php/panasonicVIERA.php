@@ -93,7 +93,7 @@ $eqLogics = eqLogic::byType('panasonicVIERA');
                             <div class="col-sm-3">
                             	<select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
                                 	<option value="">{{Aucun}}</option>
-    <?php foreach (object::all() as $object) : ?>
+    <?php foreach (jeeObject::all() as $object) : ?>
                         		<option value="<?= $object->getId() ?>"><?= $object->getName() ?></option>
     <?php endforeach; ?>
                             	</select>
